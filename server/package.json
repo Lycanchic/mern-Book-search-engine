@@ -19,7 +19,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^5.0.1",
     "mongoose": "^5.13.16",
-    "server": "^1.0.38"
+    "server": "^1.0.38",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
