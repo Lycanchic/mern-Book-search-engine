@@ -17,8 +17,8 @@ const { typeDefs, resolvers } = require('./schemas');
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  contect: authMiddleware
-})
+  context: authMiddleware
+});
 
 //intergrate our apollo server with the express application middleware
 server.aplyMiddleware({app});

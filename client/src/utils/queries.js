@@ -1,4 +1,4 @@
-import gql from "graph-tag";
+import gql from 'graph-tag';
 
 export const GET_ME = gql`
   {

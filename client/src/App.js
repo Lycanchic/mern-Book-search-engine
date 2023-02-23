@@ -5,7 +5,7 @@ import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
 import { ApolloProvider } from '@apollo/react-hooks';
-import ApolloClient from 'qapollo-boosst';
+import ApolloClient from 'apollo-boost';
 
 const client = new ApolloClient ({
   request: operation => {
@@ -13,7 +13,7 @@ const client = new ApolloClient ({
 
     operation.setContect({
       headers: {
-        authorization: token ? `Bearer${token}` : ''
+        authorization: token ? `Bearer${token}` :  ''
       }
     })
   },
