@@ -7,11 +7,25 @@ import Navbar from './components/Navbar';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'qapollo-boosst';
 
+const client = new ApolloClient ({
+  request: operation => {
+    const token = localStorage.getItem('id_token');
+
+    operation.setContect({
+      headers: {
+        authorization: token ? `Bearer${token}` : ''
+      }
+    })
+  },
+  uri: '/graphql'
+});
+
 
 
 function App() {
   return (
-    <Router>
+    <ApolloProvider client={client}>
+      <Router>
       <>
         <Navbar />
         <Routes>
@@ -30,6 +44,7 @@ function App() {
         </Routes>
       </>
     </Router>
+    </ApolloProvider>
   );
 }
 
