@@ -21,7 +21,10 @@ const server = new ApolloServer({
 });
 
 //intergrate our apollo server with the express application middleware
-server.aplyMiddleware({app});
+async function startServer() {
+  await server.start();
+server.applyMiddleware({app});
+}
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -40,4 +43,4 @@ db.once('open', () => {
 console.log(`API server running on port ${PORT}!`);
 
 //log where we can go to test our GQL API
-console.log('error occured: ' + err);
+//console.log('error occured: ' + err);
