@@ -1,18 +1,24 @@
 # MERN BOOK SEARCH ENGINE
-**MERN Book Search Engine** is an application built using HTML, CSS, JS, MySQL, Handlebars.js, Sequelize, Json, typescript, insomnia, prettier, bootstrap, express and node.js, mongodb.
+**MERN Book Search Engine** is an application built using HTML, CSS, JS, Json, prettier, express node.js, Mongodb, Mongoose, Apollo Server, graphgql, dotenv, Heroku, React.
 
 
 ## Images of the deployed website:
 ***
 
 ## Home Page
-[home page image]
+![Home Page](Assets/images/Search1.png)
 
-## Page 2
-[ page 2 image]
+## Home Page Search #2
+![Home Page Search #2](Assets/images/Search2.png)
 
-## Page 3
-[ page 3 image]
+## Login 
+![Login Page](Assets/images/Login.png)
+
+## Logout
+![Logout](Assets/images/logout.png)
+
+## Sign Up
+![Sign Up](Assets/images/Sign%20Up.png)
 
 
 
@@ -67,27 +73,31 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
   ## THIRD PARTY APIs
   ***
-   Trefle | The plants API
-   Trefle is a botanical API and data source.
-       *http://trefle.io/
+   Google |   [Google Apis Books](https://www.googleapis.com/books/v1/volumes?q%3Dharry%2Bpotter)
+   
+   <br>
 
+   Trefle is a botanical API and data source.
+   
+ 
+   [Google Apis Books](https://www.googleapis.com/books/v1/volumes?q%3Dharry%2Bpotter)
+  
   ## TECHNOLOGY USED
   ***
-    HTML 
-    CSS 
-    JS 
-    MySQL
-    Handlebars.js
-    Seqealize
-    Json 
-    typescript
+    HTML, 
+    CSS, 
+    JS, 
+    Json, 
+    prettier, 
     express 
-    node.js
-    Bootstrap
-    Bcrypt
-    insomnia
-    prettier
- 
+    node.js, 
+    Mongodb, 
+    Mongoose, 
+    Apollo Server, 
+    graphgql, 
+    dotenv, 
+    Heroku,
+    React
 
 ## THE DEPLOYED REPO CAN BE FOUND AT THE FOLLOWING URL:
 ***
@@ -96,16 +106,13 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
   ## INSTALLATION OF THE REPO FROM GITHUB
   ***
-  A copy of the repository can be cloned at [${response.GitHub}]. 
+  A copy of the repository can be cloned at  [Click Here](https://github.com/Lycanchic/mern-Book-search-engine.git)
     * Simply click on the repo and select **Clone**. 
     * From the drop down menu select the copy icon. Type (directly into your terminal):
     ```
     'git clone' + 'the repo link' + enter.
      
 
-  ## FUTURE ITERATIONS
-  ***
-  **Future iterations**- 
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
