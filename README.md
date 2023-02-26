@@ -76,9 +76,6 @@ THEN I am logged out of the site and presented with a menu with the options Sear
    Google |   [Google Apis Books](https://www.googleapis.com/books/v1/volumes?q%3Dharry%2Bpotter)
    
    <br>
-
-   Trefle is a botanical API and data source.
-   
  
    [Google Apis Books](https://www.googleapis.com/books/v1/volumes?q%3Dharry%2Bpotter)
   
@@ -97,12 +94,12 @@ THEN I am logged out of the site and presented with a menu with the options Sear
     graphgql, 
     dotenv, 
     Heroku,
-    React
+    React.
 
 ## THE DEPLOYED REPO CAN BE FOUND AT THE FOLLOWING URL:
 ***
+[Click Here](https://mern-book-search-engine-ch21.herokuapp.com/)
 
-[Deployed URL]
 
   ## INSTALLATION OF THE REPO FROM GITHUB
   ***
