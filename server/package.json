@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "engines": {
-    "node": ">=16.19.0"
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider node server.js",
