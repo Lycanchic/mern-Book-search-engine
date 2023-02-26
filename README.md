@@ -106,8 +106,10 @@ THEN I am logged out of the site and presented with a menu with the options Sear
   A copy of the repository can be cloned at  [Click Here](https://github.com/Lycanchic/mern-Book-search-engine.git)
     * Simply click on the repo and select **Clone**. 
     * From the drop down menu select the copy icon. Type (directly into your terminal):
-    ```
+
+    
     'git clone' + 'the repo link' + enter.
+    
      
 
 
