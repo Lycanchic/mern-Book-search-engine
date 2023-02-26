@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "engines": {
-    "node": ">=14.0.0",
+    "node": "~npm audit14.0.0",
     "npm": ">=7.0.0"
   },
   "scripts": {
