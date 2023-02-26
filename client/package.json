@@ -1,9 +1,11 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "node": ">=16.19.0",
   "private": true,
   "proxy": "http://localhost:3001",
+  "engines": {
+    "node": ">=16.19.0"
+  },
   "dependencies": {
     "@apollo/client": "^3.7.9",
     "@apollo/react-hooks": "^4.0.0",
